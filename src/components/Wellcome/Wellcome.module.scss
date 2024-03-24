@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@font-face {
+  font-family: 'Ambidexter';
+  src: url(../../fonts/ambidexter_regular.woff);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+@media screen and (min-width:1440px) {
+  .container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+    font-family: 'EB Garamond', regular;
+    font-size: 1.3vw;
+  }
+  .container::before {
+    content: '';
+    background-image: url(../Wellcome/assets/background.png);
+    position: absolute;
+    z-index: -2;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+    height: 50vh;
+    width: 100vw;
+    background-origin: border-box;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: center;
+    gap: 50vw;
+    margin-bottom: 20vh;
+  }
+  .logo {
+    font-family: 'Ambidexter';
+    font-size: 20vh;
+    color: white;
+  }
+  .logo > p {
+    font-size: 3vw;
+  }
+  .logo > h1::after{
+    width: max(15vw);
+    height: max(15vw);
+    border: 0.2 transparent;
+    border-radius: max(15vw);
+    background-color: #E36F3D;
+    position: absolute;
+    z-index: -1;
+    content:'';
+    margin-top: max(9vh);
+    margin-left: max(-20vh);
+    
+  }
+  
+  .bottom {
+    align-self: flex-start;
+    margin-left: 15vw;
+    color: #2c4dff;
+  }
+}

@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    color: white;
+  }
+
+  .container::before {
+    background-color: #302d2d;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    content: '';
+  }
+  img {
+    width: 30vw;
+    height: 20vh;
+    background-color: red;
+  }
+  .info {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+    font-size: 20px;
+  }
+
+  .info > p,
+  .info > div {
+    width: 40vw;
+  }
+
+  .info > h2 {
+    color: #e36f3d;
+    padding-bottom: 10vh;
+  }
+}
