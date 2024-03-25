@@ -6,6 +6,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 20vw;
+  
 
     &::before {
       content: '';
@@ -32,8 +33,9 @@
     display: flex;
     flex-direction: column;
     gap: 5vh;
-    font-size: 2.3vh;
+    font-size: 2.1vh;
     position: relative;
+    scroll-snap-align: center;
     &::before{
       content: '';
       z-index: -1;

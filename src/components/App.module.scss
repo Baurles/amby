@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -6,4 +6,9 @@
 @font-face {
   font-family: 'Ambidexter';
   src: url(../fonts/ambidexter_regular.woff);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }

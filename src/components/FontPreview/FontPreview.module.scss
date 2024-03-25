@@ -9,6 +9,7 @@
     height: 100vh;
     font-family: 'EB Garamond', regular;
     font-size: 1.3vw;
+    scroll-snap-align: start;
   }
   .fonts {
     display: flex;
@@ -18,6 +19,7 @@
   }
   .fonts > div:nth-child(2) > span {
     font-family: 'Ambidexter';
+    color:#2C4DFF;
   }
   .fonts > div {
     display: flex;
