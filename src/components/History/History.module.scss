@@ -1,0 +1,49 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20vw;
+
+    &::before {
+      content: '';
+      background-image: url(./assets/background.png);
+      position: absolute;
+      z-index: -2;
+      background-repeat: no-repeat;
+      background-position: center;
+      content: '';
+      height: 250%;
+      width: 100%;
+      background-origin: border-box;
+    }
+  }
+  .container > p {
+    font-family: 'Ambidexter';
+    rotate: 270deg;
+    color: #e26c3b;
+    font-size: 24vh;
+    width: 30vw;
+  }
+  .container > div {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    font-size: 2.3vh;
+    position: relative;
+    &::before{
+      content: '';
+      z-index: -1;
+      position: absolute;
+      background-image: url(./assets/backtext.png);
+      width: 150%;
+      height: 120%;
+      left: -20%;
+      top:-8%
+      
+    }
+  }
+}

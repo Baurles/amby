@@ -1,0 +1,37 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+    font-family: 'EB Garamond', regular;
+    font-size: 1.3vw;
+  }
+  .fonts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(100% / 2);
+  }
+  .fonts > div:nth-child(2) > span {
+    font-family: 'Ambidexter';
+  }
+  .fonts > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+  }
+  .label {
+    font-size: 3vh;
+  }
+  .fonts > div > span:nth-child(1) {
+    font-size: 8vh;
+  }
+
+  .fonts > div > span:nth-child(2) {
+    font-size: 4vh;
+  }
+}

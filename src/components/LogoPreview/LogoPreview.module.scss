@@ -1,0 +1,44 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+    font-family: 'EB Garamond', regular;
+    font-size: 1.3vw;
+  }
+
+  .card {
+    height: 50vh;
+    width:calc(100vw/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card:nth-child(1)::before {
+    content: '';
+    width: calc(100%/3);
+    height: 50%;
+    background-color: #364CBC;
+    position: absolute;
+    z-index: -2;
+  }
+  .card:nth-child(2)::before {
+    content: '';
+    width: calc(100%/3);
+    height: 50%;
+    background-color: #E36F3D;
+    position: absolute;
+    z-index: -2;
+  }
+  .card:nth-child(3)::before {
+    content: '';
+    width: calc(100%/3);
+    height: 50%;
+    background-color: #E1D7CA;
+    position: absolute;
+    z-index: -2;
+  }
+}

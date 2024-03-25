@@ -1,7 +1,9 @@
-// .container {
-//   scroll-snap-type: y mandatory;
-// }
+*{
+  box-sizing: border-box;
+}
 
-// .container > * {
-//   scroll-snap-align: center;
-// }
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@font-face {
+  font-family: 'Ambidexter';
+  src: url(../fonts/ambidexter_regular.woff);
+}

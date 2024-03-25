@@ -1,6 +1,4 @@
-*{
-  box-sizing: border-box;
-}
+
 
 @media screen and (min-width: 1440px) {
   .container {
@@ -21,11 +19,7 @@
     height: 100vh;
     content: '';
   }
-  img {
-    width: 30vw;
-    height: 20vh;
-    background-color: red;
-  }
+
   .info {
     width: 50vw;
     display: flex;

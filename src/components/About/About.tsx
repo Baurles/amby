@@ -1,5 +1,7 @@
 import React from 'react';
 import Style from './About.module.scss';
+import { Logo } from '../Logo/Logo';
+import { LogoStyleGB } from '../Logo/LogoStyles';
 
 export const About = () => {
   return (
@@ -32,7 +34,7 @@ export const About = () => {
             </ol>
           </div>
         </div>
-        <img src="" alt="" className="logo" />
+        <Logo style={LogoStyleGB} />
       </div>
     </div>
   );

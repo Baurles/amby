@@ -1,5 +1,6 @@
 import React from 'react';
 import Style from './Wellcome.module.scss';
+import { Logo } from '../Logo/Logo';
 
 export const Wellcome = () => {
   return (
@@ -8,10 +9,7 @@ export const Wellcome = () => {
         <li>BRAND IDENTITY</li>
         <li>FASHION 2024</li>
       </ul>
-      <div className={Style.logo}>
-        <h1>Amby</h1>
-        <p>store</p>
-      </div>
+      <Logo />
 
       <div className={Style.bottom}>BRAND OF WOMAN CLOTHING</div>
     </div>

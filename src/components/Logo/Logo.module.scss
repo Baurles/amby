@@ -1,0 +1,22 @@
+.logo {
+  font-family: 'Ambidexter';
+  font-size: var(--fontSize);
+  color: white;
+}
+
+.logo > p {
+  font-size: 3vw;
+  line-height: 0.1vh;
+}
+.logo > h1::after {
+  width: var(--sphereSize);
+  height: var(--sphereSize);
+  border: 0.2 transparent;
+  border-radius: var(--sphereSize);
+  background-color: var(--circleColor);
+  position: absolute;
+  z-index: -1;
+  content: '';
+  margin-top:var(--marginTop); ;
+  margin-left: var(--marginLeft);
+}
